@@ -1,0 +1,16 @@
+.item{
+    color: #FFF;
+    display: flex;
+    font-family: 'Orbitron', sans-serif;
+    position: relative;
+    transition: all 1s;
+    text-decoration: none;
+    
+}
+
+.item:hover{
+    color: #D9310B;
+    font-size: 20px;
+    transform: 1.5;
+
+}

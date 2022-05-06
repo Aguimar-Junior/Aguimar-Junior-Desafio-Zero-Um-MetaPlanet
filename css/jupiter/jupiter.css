@@ -1,0 +1,17 @@
+.jupiter{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../../img/ceu-azul.png);
+    padding: 50px;
+    height: 700px;
+    width: 100%;
+}
+
+@media(max-width:426px){
+    .jupiter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

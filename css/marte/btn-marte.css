@@ -1,0 +1,50 @@
+.btn-marte{
+    background-color: #D9310B;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    filter: drop-shadow(0 0 30px #D9310B);
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 380px;
+    margin-right: 580px;
+    padding: 10px;
+    position: absolute;
+    transition: all 1s;
+    text-align: center;
+    
+}
+
+.btn-marte:hover{
+    font-size: 20px;
+    transform: 1.5;
+}
+
+@media(max-width:426px){
+    .btn-marte{
+        display: flex;
+        left: 90px;
+        position: absolute;
+        top: 850px;
+        transition: all 1s;
+        width: 140px;
+    }
+
+    .btn-marte:hover{
+        font-size: 15px;
+        transform: 1.5;
+        padding-left: 15px;
+        width: 170px;
+    }
+
+    
+    
+}
+
+@media(max-width:769px){
+    .btn-marte{
+        margin-top: 160px;
+        margin-left: 50px;
+    }
+}

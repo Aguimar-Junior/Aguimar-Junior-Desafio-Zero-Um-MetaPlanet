@@ -1,0 +1,32 @@
+.imagem-saturno{
+    animation: float 4s ease-in-out infinite;
+    filter: drop-shadow(0 0 30px #fff);
+    height: 400px;
+    margin-top: 150px;
+    transform: translateY(0px);
+    width: 500px;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@media(max-width:426px){
+    .imagem-saturno{
+        height: 300px;
+        margin-top: 150px;
+        transform: translateY(0px);
+        width: 300px;
+    }
+ 
+}
+
+

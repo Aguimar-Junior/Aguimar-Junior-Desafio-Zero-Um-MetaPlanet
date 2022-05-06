@@ -1,0 +1,7 @@
+.cabecalho{
+    display: flex;
+    background: url(../../img/textura.jpg) no-repeat center center/cover;
+    height: 750px;
+    position: relative;
+    width: 100%;
+}

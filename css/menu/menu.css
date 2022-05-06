@@ -1,0 +1,18 @@
+.menu{
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: auto;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+
+@media(max-width:426px){
+    .menu{
+        display: flex;
+        position: fixed;
+        width: 100%;
+    }
+}

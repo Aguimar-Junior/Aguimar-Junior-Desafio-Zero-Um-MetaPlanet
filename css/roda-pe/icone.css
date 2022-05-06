@@ -1,0 +1,15 @@
+.icone{
+    align-items: center;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin: 10px;
+    transition: all 0.8s;
+    width: 40px;
+}
+
+.icone:hover{
+    height: 50px;
+    transform: 1.5;
+    width: 50px;
+}

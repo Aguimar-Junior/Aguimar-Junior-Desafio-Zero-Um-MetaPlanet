@@ -1,0 +1,19 @@
+.marte{
+    background-image: url(../../img/galaxy.jpg);
+    display: flex;
+    height: 700px;
+    justify-content: space-around;
+    padding: 50px;
+    width: 100%;
+}
+
+@media(max-width:426px){
+    .marte{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        
+    }
+}
+

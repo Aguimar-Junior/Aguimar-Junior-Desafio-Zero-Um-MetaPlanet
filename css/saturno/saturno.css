@@ -1,0 +1,17 @@
+.saturno{
+    background-image: url(../../img/galaxy2.jpg);
+    display: flex;
+    height: 700px;
+    justify-content: space-around;
+    padding: 50px;
+    width: 100%;
+}
+
+@media(max-width:426px){
+    .saturno{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
