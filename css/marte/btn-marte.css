@@ -24,7 +24,7 @@
 @media(max-width:426px){
     .btn-marte{
         display: flex;
-        left: 90px;
+        left: 70px;
         position: absolute;
         top: 850px;
         transition: all 1s;
